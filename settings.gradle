@@ -8,3 +8,5 @@
  */
 
 rootProject.name = 'jvm'
+
+include 'jvm_01_classLoad'
