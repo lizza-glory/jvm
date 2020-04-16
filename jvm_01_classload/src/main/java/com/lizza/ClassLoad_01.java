@@ -1,13 +1,17 @@
 package com.lizza;
 
 /**
- *
+ * 1. 对于静态字段来讲, 只有直接定义了该字段的类才会被初始化;
+ * 2. 当一个类被初始化时, 要求其父类必须初始化完成;
+ * 3. -XX:+TraceClassLoading 用于追踪类的加载信息并打印出来;
+ * 4. jvm 参数使用
+ *    -XX:+<option> 表示开启option选项
+ *    -XX:-<option> 表示关闭option选项
+ *    -XX:<option>=<value> 表示将option的值设置为value
  */
 public class ClassLoad_01 {
 
     public static void main(String[] args){
-        System.out.println(Child.c_str);
-        System.out.println("=====================");
         System.out.println(Child.p_str);
     }
 }
