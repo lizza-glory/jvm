@@ -1,7 +1,5 @@
 package com.lizza;
 
-import javafx.scene.Parent;
-
 /**
  * 1. 对于静态字段来讲, 只有直接定义了该字段的类才会被初始化;
  * 2. 当一个类被初始化时, 要求其父类必须初始化完成;
