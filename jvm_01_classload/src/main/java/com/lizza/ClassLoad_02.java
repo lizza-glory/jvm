@@ -17,11 +17,11 @@ package com.lizza;
 public class ClassLoad_02 {
 
     public static void main(String[] args){
-        System.out.println(Sub.i_2);
+        System.out.println(Child_02.i_2);
     }
 }
 
-class Sub {
+class Child_02 {
     public static final String str = "Hello Word!";
     public static final short s = 127;
     public static final int i_1 = 128;
@@ -29,6 +29,6 @@ class Sub {
     public static final boolean b = false;
 
     static {
-        System.out.println("Sub Static Block!");
+        System.out.println("Child_02 Static Block!");
     }
 }
