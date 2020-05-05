@@ -2,7 +2,7 @@ package com.lizza;
 
 /**
  * 1. ClassLoader.getSystemClassLoader()用来获取系统类加载器
- * 2. 在Hotspot中, 根类加载器使用null来标示
+ * 2. 在HotSpot中, 根类加载器使用null来标示
  */
 public class ClassLoad_03 {
 
