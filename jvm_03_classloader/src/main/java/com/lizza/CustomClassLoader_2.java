@@ -1,15 +1,14 @@
 package com.lizza;
 
-import java.io.*;
+import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
 /**
- * 自定义类加载器
- * 1. 继承ClassLoader
- * 2. 重写两个构造器分别去调用父类的构造器
- * 3. loadClassData(String name)方法加载二进制文件
- * 4. findClass(String name), 在findClass中调用父类的defineClass方法获取Class对象
+ * 修改: 从指定路径加载.class文件
  */
-public class ClassLoader_03_custom extends ClassLoader {
+public class CustomClassLoader_2 extends ClassLoader {
 
     /** 扩展名 **/
     private String fileExtension = ".class";
@@ -17,12 +16,12 @@ public class ClassLoader_03_custom extends ClassLoader {
     /** 类加载器名称 **/
     private String classLoaderName = this.getClass().getSimpleName();
 
-    public ClassLoader_03_custom() {
-        super();    // 将系统类加载器作为该类加载器的父加载器
-    }
+    /** .class文件路径 **/
+    private String path;
 
-    public ClassLoader_03_custom(ClassLoader parent) {
-        super(parent);  // 显示指定该类加载器的父加载器
+    public CustomClassLoader_2(String path) {
+        super();    // 将系统类加载器作为该类加载器的父加载器
+        this.path = path;
     }
 
     public Class findClass(String name) {
@@ -32,12 +31,12 @@ public class ClassLoader_03_custom extends ClassLoader {
 
     private byte[] loadClassData(String name) {
         byte[] result = null;
-        String url = name.replaceAll(".", "/");
+        String url = name.replace(".", "/");
         InputStream is = null;
         ByteArrayOutputStream os = null;
 
         try {
-            is = new FileInputStream(url + ".class");
+            is = new FileInputStream(path + url + fileExtension);
             os = new ByteArrayOutputStream();
             int ch = 0;
 
@@ -67,9 +66,10 @@ public class ClassLoader_03_custom extends ClassLoader {
     }
 
     public static void main(String[] args) throws Exception {
-        ClassLoader_03_custom classLoader = new ClassLoader_03_custom();
+        String path = "/Users/lizza/Desktop/";
+        CustomClassLoader_2 classLoader = new CustomClassLoader_2(path);
         Class<?> clazz = classLoader.loadClass("com.lizza.ClassLoader_01");
         Object instance = clazz.newInstance();
-        System.out.println(instance);
+        System.out.println(instance.getClass().getClassLoader());
     }
 }
