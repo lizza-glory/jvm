@@ -8,7 +8,7 @@ package com.lizza;
 class User {
     private User user;
 
-    public void setUser(Object object) {
-        this.user = (User) object;
+    public void setUser(User object) {
+        this.user = object;
     }
 }

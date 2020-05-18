@@ -35,6 +35,10 @@ public class CustomClassLoader extends ClassLoader {
         this.path = path;
     }
 
+    public void setPath(String path) {
+        this.path = path;
+    }
+
     public Class findClass(String name) {
         byte[] bytes = this.loadClassData(name);
         return defineClass(name, bytes, 0, bytes.length);
