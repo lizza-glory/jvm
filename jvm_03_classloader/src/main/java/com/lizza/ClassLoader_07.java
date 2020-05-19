@@ -14,6 +14,12 @@ import java.lang.reflect.Method;
  * 2. 保证了核心类不会被自定义类所替代
  * 3. 不同的类加载器可以提供不同的命名空间, 相互之间相互隔离, 不同的类加载器加载的类相互之间不可见
  */
+/**
+ * 1. 在运行期, 一个Java类是由该类的完全限定名(binary name)和用于加载该类的定义类加载器(defining loader)
+ * 所共同决定的;
+ * 2. 如果同样名字(即类的完全限定名相同)的类是由不同的类加载器加载, 即使是从相同的位置加载, 二进制文件
+ * 相同, 最终加载后的类也是不同的
+ */
 public class ClassLoader_07 {
 
     public static void main(String[] args) throws Exception {
