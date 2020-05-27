@@ -23,6 +23,8 @@ import java.util.ServiceLoader;
 public class ClassLoader_11 {
 
     public static void main(String[] args) {
+        // 如果设置为ExtClassLoader, 则无法加载MySQL
+        Thread.currentThread().setContextClassLoader(ClassLoader_11.class.getClassLoader().getParent());
         ServiceLoader<Driver> loader = ServiceLoader.load(Driver.class);
         Iterator<Driver> iterator = loader.iterator();
         while (iterator.hasNext()) {
