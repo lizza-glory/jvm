@@ -40,7 +40,7 @@ public class CustomClassLoader_2 extends ClassLoader {
 
     private byte[] loadClassData(String name) {
         byte[] result = null;
-        String url = name.replace(".", "/");
+        String url = name.replace("", "/");
         InputStream is = null;
         ByteArrayOutputStream os = null;
 

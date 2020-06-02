@@ -13,6 +13,19 @@
         <module>jvm_01_classload</module>
         <module>jvm_02_parents_delegate</module>
         <module>jvm_03_classloader</module>
+        <module>jvm_02_bytecode</module>
     </modules>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
