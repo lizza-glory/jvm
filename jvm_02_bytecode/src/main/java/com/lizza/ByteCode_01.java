@@ -1,8 +1,5 @@
 package com.lizza;
 
-/**
- *
- */
 public class ByteCode_01 {
 
     private Integer i;
