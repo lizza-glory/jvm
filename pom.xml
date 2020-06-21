@@ -14,6 +14,7 @@
         <module>jvm_02_parents_delegate</module>
         <module>jvm_03_classloader</module>
         <module>jvm_02_bytecode</module>
+        <module>jvm_03_memory</module>
     </modules>
 
     <build>
