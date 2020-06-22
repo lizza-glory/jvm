@@ -12,4 +12,11 @@
     <artifactId>jvm_03_memory</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
