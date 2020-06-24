@@ -17,7 +17,7 @@ public class Memory_04 {
             enhancer.setCallback((MethodInterceptor)(object, method, param, proxy) ->
                 proxy.invokeSuper(object, param)
             );
-            Thread.sleep(1000);
+             Thread.sleep(1000);
             Object o = enhancer.create();
             System.out.println(o.getClass());
         }
