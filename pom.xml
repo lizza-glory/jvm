@@ -15,6 +15,7 @@
         <module>jvm_03_classloader</module>
         <module>jvm_02_bytecode</module>
         <module>jvm_03_memory</module>
+        <module>jvm_04_gc</module>
     </modules>
 
     <dependencyManagement>
