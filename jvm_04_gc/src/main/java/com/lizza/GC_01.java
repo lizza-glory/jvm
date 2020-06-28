@@ -1,10 +1,10 @@
 package com.lizza;
 
 /**
- * -verbose:gc  打印gc的详细信息
- * -Xms20M  堆容量初始值
- * -Xmx20M  堆容量最大值
- * -Xmn10M  堆中新生代容量
+ * -verbose:gc          打印gc的详细信息
+ * -Xms20M              堆容量初始值
+ * -Xmx20M              堆容量最大值
+ * -Xmn10M              堆中新生代容量
  * -XX:+PrintGCDetails  打印GC的详细信息
  * -XX:SurvivorRatio=8  Eden空间容量和Survivor空间容量比例为8:1(Survivor默认有两个)
  */

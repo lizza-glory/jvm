@@ -1,9 +1,15 @@
 package com.lizza;
 
 /**
- * -XX:+PrintCommandLineFlags -version  打印jvm启动时的默认参数
+ * -verbose:gc                          查看GC详情
+ * -Xms20M                              堆容量初始值
+ * -Xmx20M                              堆容量最大值
+ * -Xmn10M                              堆中新生代容量
+ * -XX:SurvivorRatio=8                  Eden空间容量和Survivor空间容量比例为8:1(Survivor默认有两个)
  * -XX:PretenureSizeThreshold=4194304   设置一个阈值, 当新创建的对象的所需空间超过该阈值时, 直接在老年代进行对象分配(前提: 使用的是Serial GC)
- * -XX:+UseSerialGC  使用单线程(串行)垃圾收集器
+ * -XX:+PrintGCDetails                  打印GC详情
+ * -XX:+PrintCommandLineFlags           打印jvm启动时的默认参数
+ * -XX:+UseSerialGC                     使用单线程(串行)垃圾收集器
  *
  * 1. 当一个对象创建时, 所需空间超过新生代的空间大小时, 会直接在老年代进行创建
  * 2. 当一个对象创建时, 所需空间超过老年代的空间大小时, JVM会尝试多次Minor GC和Full GC, 最后会出现OOM错误(使用Parallel GC)
