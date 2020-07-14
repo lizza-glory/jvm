@@ -16,6 +16,7 @@
         <module>jvm_02_bytecode</module>
         <module>jvm_03_memory</module>
         <module>jvm_04_gc</module>
+        <module>jvm_07_jmm</module>
     </modules>
 
     <dependencyManagement>
