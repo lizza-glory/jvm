@@ -11,12 +11,10 @@
 
     <modules>
         <module>jvm_01_classload</module>
-        <module>jvm_02_parents_delegate</module>
-        <module>jvm_03_classloader</module>
         <module>jvm_02_bytecode</module>
         <module>jvm_03_memory</module>
         <module>jvm_04_gc</module>
-        <module>jvm_07_jmm</module>
+        <module>jvm_05_jmm</module>
     </modules>
 
     <dependencyManagement>
