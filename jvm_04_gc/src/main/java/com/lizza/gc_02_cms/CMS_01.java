@@ -1,7 +1,8 @@
-package com.lizza;
+package com.lizza.gc_02_cms;
 
 /**
- * CMS收集器
+ * CMS收集器GC日志详解
+ * jvm参数: -Xms20m -Xmx20m -Xmn10m -XX:+PrintGCDetails -XX:+UseParNewGC -XX:+UseConcMarkSweepGC
  */
 public class CMS_01 {
 
