@@ -1,4 +1,4 @@
-package com.lizza.gc_02_cms;
+package com.lizza.CMSGCLog;
 
 /**
  * CMS调优实践

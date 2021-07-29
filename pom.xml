@@ -15,6 +15,8 @@
         <module>jvm_03_memory</module>
         <module>jvm_04_gc</module>
         <module>jvm_05_jmm</module>
+        <module>service</module>
+        <module>util</module>
     </modules>
 
     <dependencyManagement>
