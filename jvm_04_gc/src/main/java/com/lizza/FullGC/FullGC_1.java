@@ -2,7 +2,7 @@ package com.lizza.FullGC;
 
 /**
  * Full GC 的常见原因之一: 显示调用 System.gc()
- * JCM 参数配置
+ * JVM 参数配置
  * -Xms20M
  * -Xmx20M
  * -Xmn10M
