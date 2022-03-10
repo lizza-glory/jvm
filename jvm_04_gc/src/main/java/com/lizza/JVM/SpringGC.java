@@ -32,7 +32,7 @@ public class SpringGC {
     }
 
     @Test
-    public void test2() throws IOException {
+    public void test2() throws Exception {
         OkHttpClient client = new OkHttpClient();
         Param param = Param.builder()
                 .name("lizza")
@@ -49,9 +49,10 @@ public class SpringGC {
                     .post(body)
                     .url("http://localhost:8080/handle")
                     .build();
-            client.newCall(request)
+            Response res = client.newCall(request)
                     .execute();
-            try { Thread.sleep(50); } catch (Exception e) {}
+            System.out.println(new String(res.body().bytes()));
+            try { Thread.sleep(15); } catch (Exception e) {}
         }
     }
 }
