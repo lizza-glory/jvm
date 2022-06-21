@@ -1,4 +1,4 @@
-package com.lizza.JVM;
+package com.lizza.jvm;
 
 import java.util.UUID;
 

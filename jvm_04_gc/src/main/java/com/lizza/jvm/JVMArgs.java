@@ -1,4 +1,4 @@
-package com.lizza.JVM;
+package com.lizza.jvm;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

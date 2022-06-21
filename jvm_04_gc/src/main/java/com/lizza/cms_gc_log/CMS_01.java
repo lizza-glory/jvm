@@ -1,4 +1,4 @@
-package com.lizza.CMSGCLog;
+package com.lizza.cms_gc_log;
 
 /**
  * CMS收集器GC日志详解

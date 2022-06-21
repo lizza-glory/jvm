@@ -1,4 +1,4 @@
-package com.lizza.FullGC;
+package com.lizza.full_gc;
 
 /**
  * Full GC 的常见原因之一: 显示调用 System.gc()

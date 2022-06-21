@@ -1,4 +1,4 @@
-package com.lizza.OOM;
+package com.lizza.oom;
 
 import org.junit.Test;
 

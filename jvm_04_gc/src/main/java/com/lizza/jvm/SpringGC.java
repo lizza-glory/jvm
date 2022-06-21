@@ -1,15 +1,13 @@
-package com.lizza.JVM;
+package com.lizza.jvm;
 
 import cn.hutool.json.JSONUtil;
-import com.lizza.JVM.entity.Param;
+import com.lizza.jvm.entity.Param;
 import okhttp3.*;
 import org.junit.Test;
-import sun.net.www.http.HttpClient;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 import java.util.UUID;
 
 /**

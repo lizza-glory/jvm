@@ -1,4 +1,4 @@
-package com.lizza.JVM.entity;
+package com.lizza.jvm.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

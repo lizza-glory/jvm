@@ -1,4 +1,4 @@
-package com.lizza.GCLog;
+package com.lizza.gc_log;
 
 /**
  * GC日志常用参数设置
@@ -13,9 +13,9 @@ package com.lizza.GCLog;
  * -XX:+PrintReferenceGC            打印年轻代各个引用的数量以及时长
  *
  * jvm参数
- * -Xms20m -Xmx20m -Xmn10m -XX:+PrintGCDetails -XX:+PrintHeapAtGC
+ * -XX:+PrintGCDetails -Xms20m -Xmx20m -Xmn10m
  */
-public class GC_04 {
+public class GC_02 {
 
     public static void main(String[] args){
         byte[] array = new byte[1024 * 1024 * 20];

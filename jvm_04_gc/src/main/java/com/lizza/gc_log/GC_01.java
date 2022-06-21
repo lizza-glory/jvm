@@ -1,4 +1,4 @@
-package com.lizza.GCLog;
+package com.lizza.gc_log;
 
 /**
  * GC日志常用参数设置
