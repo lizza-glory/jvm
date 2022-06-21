@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9c58987-17de-4933-a30a-bc8737701dbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/memory_analysis/MemoryAnalysis_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/CMSGCLog/CMS_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/cms_gc_log/CMS_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/CMSGCLog/CMS_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/cms_gc_log/CMS_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/FullGC/FullGC_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/full_gc/FullGC_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/JVM/JVMArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/jvm/JVMArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/JVM/PsPoGC_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/jvm/PsPoGC_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/JVM/SpringGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/jvm/SpringGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/JVM/entity/Param.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/jvm/entity/Param.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/OOM/StringTableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/oom/StringTableTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="288NdvDsAWWtuuhABjfTkmIeGCF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lizza.memory_analysis" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MemoryAnalysis_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizza.memory_analysis.MemoryAnalysis_01" />
+      <module name="jvm_04_gc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizza.memory_analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MemoryAnalysis_01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9c58987-17de-4933-a30a-bc8737701dbc" name="Changes" comment="" />
+      <created>1650594344603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650594344603</updated>
+      <workItem from="1650594346666" duration="126000" />
+      <workItem from="1652108679592" duration="766000" />
+      <workItem from="1655737256465" duration="2572000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

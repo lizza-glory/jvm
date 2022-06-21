@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="util" />
+        <module name="service" />
+        <module name="jvm_03_memory" />
+        <module name="jvm_04_gc" />
+        <module name="jvm_01_classload" />
+        <module name="jvm_05_jmm" />
+        <module name="jvm_02_bytecode" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
