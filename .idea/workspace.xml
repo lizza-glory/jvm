@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9c58987-17de-4933-a30a-bc8737701dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/memory_analysis/MemoryAnalysis_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/CMSGCLog/CMS_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/cms_gc_log/CMS_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/CMSGCLog/CMS_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/cms_gc_log/CMS_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/FullGC/FullGC_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/full_gc/FullGC_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GCLog/GC_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/gc_log/GC_06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/JVM/JVMArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/jvm/JVMArgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/JVM/PsPoGC_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/jvm/PsPoGC_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/JVM/SpringGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/jvm/SpringGC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/JVM/entity/Param.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/jvm/entity/Param.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/OOM/StringTableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/oom/StringTableTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="b9c58987-17de-4933-a30a-bc8737701dbc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -100,7 +84,8 @@
       <updated>1650594344603</updated>
       <workItem from="1650594346666" duration="126000" />
       <workItem from="1652108679592" duration="766000" />
-      <workItem from="1655737256465" duration="2572000" />
+      <workItem from="1655737256465" duration="3503000" />
+      <workItem from="1658156165398" duration="308000" />
     </task>
     <servers />
   </component>
