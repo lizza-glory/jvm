@@ -1,6 +1,8 @@
 package com.lizza.memory_analysis;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 内存分析, 3 种
@@ -10,10 +12,9 @@ import java.io.IOException;
 public class MemoryAnalysis_01 {
 
     public static void main(String[] args) throws IOException {
-        for (int i = 0; i < 10; i++) {
-            One one = new One();
-            Two two = new Two();
-            Three three = new Three();
+        List<Object> list = new ArrayList<>();
+        for (int i = 0; i < 1000; i++) {
+            list.add(new One());
         }
         System.in.read();
     }

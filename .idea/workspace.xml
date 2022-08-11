@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9c58987-17de-4933-a30a-bc8737701dbc" name="Changes" comment="" />
+    <list default="true" id="b9c58987-17de-4933-a30a-bc8737701dbc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/memory_analysis/MemoryAnalysis_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/memory_analysis/MemoryAnalysis_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/target/classes/com/lizza/memory_analysis/MemoryAnalysis_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/target/classes/com/lizza/memory_analysis/MemoryAnalysis_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/target/classes/com/lizza/memory_analysis/One.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/target/classes/com/lizza/memory_analysis/One.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/target/classes/com/lizza/memory_analysis/Three.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/target/classes/com/lizza/memory_analysis/Three.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_04_gc/target/classes/com/lizza/memory_analysis/Two.class" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/target/classes/com/lizza/memory_analysis/Two.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +64,7 @@
     <configuration name="MemoryAnalysis_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lizza.memory_analysis.MemoryAnalysis_01" />
       <module name="jvm_04_gc" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockDiagnosticVMOptions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lizza.memory_analysis.*" />
@@ -86,6 +93,7 @@
       <workItem from="1652108679592" duration="766000" />
       <workItem from="1655737256465" duration="3503000" />
       <workItem from="1658156165398" duration="308000" />
+      <workItem from="1658415693526" duration="613000" />
     </task>
     <servers />
   </component>
