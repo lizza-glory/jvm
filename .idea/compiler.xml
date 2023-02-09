@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jvm_06_case" />
         <module name="util" />
         <module name="service" />
         <module name="jvm_03_memory" />
@@ -14,6 +15,7 @@
         <module name="jvm_01_classload" />
         <module name="jvm_05_jmm" />
         <module name="jvm_02_bytecode" />
+        <module name="web-server" />
       </profile>
     </annotationProcessing>
   </component>

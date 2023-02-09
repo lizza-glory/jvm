@@ -17,6 +17,7 @@
         <module>jvm_05_jmm</module>
         <module>service</module>
         <module>util</module>
+        <module>jvm_06_case</module>
     </modules>
 
     <dependencyManagement>
@@ -25,6 +26,11 @@
                 <groupId>cglib</groupId>
                 <artifactId>cglib</artifactId>
                 <version>3.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.13.2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
