@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9c58987-17de-4933-a30a-bc8737701dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jvm_03_memory/src/main/java/com/lizza/PretenureSizeThresholdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GcCase/UseCountedLoopSafePointsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm_06_case/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm_06_case/src/main/java/com/lizza/cpu/JStackTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm_06_case/src/main/java/com/lizza/memory/OOMTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm_06_case/src/main/java/com/lizza/memory/MemoryLeakTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_03_memory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_03_memory/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_03_memory/src/main/java/com/lizza/Memory_05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm_06_case/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_06_case/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,32 +71,36 @@
       <recent name="com.lizza.memory_analysis" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OOMTests.test3">
-    <configuration name="JStackTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lizza.cpu.JStackTests" />
+  <component name="RunManager" selected="JUnit.MemoryLeakTests.test1 (1)">
+    <configuration name="MemoryLeakTests.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jvm_06_case" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lizza.cpu.*" />
+          <option name="PATTERN" value="com.lizza.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.lizza.memory" />
+      <option name="MAIN_CLASS_NAME" value="com.lizza.memory.MemoryLeakTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JStackTests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemoryLeakTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jvm_06_case" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lizza.cpu.*" />
+          <option name="PATTERN" value="com.lizza.memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lizza.cpu" />
-      <option name="MAIN_CLASS_NAME" value="com.lizza.cpu.JStackTests" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.lizza.memory" />
+      <option name="MAIN_CLASS_NAME" value="com.lizza.memory.MemoryLeakTests" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintCommandLineFlags      -XX:+PrintFlagsFinal      -XX:+PrintGCDetails      -XX:+PrintGCTimeStamps      -XX:+PrintGCApplicationStoppedTime      -XX:+PrintGCApplicationConcurrentTime      -XX:+PrintHeapAtGC      -XX:+HeapDumpOnOutOfMemoryError      -XX:HeapDumpPath=$USER_HOME$/Desktop/      -Xloggc:$USER_HOME$/Desktop/gc.log      -Xms100m      -Xmx100m      -Xmn50m      -XX:+UseConcMarkSweepGC      -XX:SurvivorRatio=8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,20 +164,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JStackTests" />
-      <item itemvalue="JUnit.JStackTests.test3" />
       <item itemvalue="JUnit.OOMTests.test1" />
       <item itemvalue="JUnit.OOMTests.test2" />
       <item itemvalue="JUnit.OOMTests.test3" />
+      <item itemvalue="JUnit.MemoryLeakTests.test1" />
       <item itemvalue="Spring Boot.WebServerApplication" />
+      <item itemvalue="JUnit.MemoryLeakTests.test1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemoryLeakTests.test1 (1)" />
+        <item itemvalue="JUnit.MemoryLeakTests.test1" />
         <item itemvalue="JUnit.OOMTests.test3" />
         <item itemvalue="JUnit.OOMTests.test2" />
         <item itemvalue="JUnit.OOMTests.test1" />
-        <item itemvalue="Application.JStackTests" />
-        <item itemvalue="JUnit.JStackTests.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +194,7 @@
       <workItem from="1655737256465" duration="3503000" />
       <workItem from="1658156165398" duration="308000" />
       <workItem from="1658415693526" duration="613000" />
+      <workItem from="1676283566700" duration="1943000" />
     </task>
     <servers />
   </component>
