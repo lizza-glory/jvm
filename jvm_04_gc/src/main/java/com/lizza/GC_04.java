@@ -11,7 +11,6 @@ package com.lizza;
  * -XX:+PrintGCDetails              打印GC详情
  * -XX:+PrintGCDateStamps           打印GC时间戳
  * -XX:+UseConcMarkSweepGC          使用CMS收集器(老年代)
- * -XX:+UseParNewGC                 使用ParNew收集器(新生代)
  *
  * TargetSurvivorRatio, MaxTenuringThreshold阈值动态调节策略
  * 1. TargetSurvivorRatio表示Survivor空间使用率阈值, 当Survivor空间使用率超过该阈值时, JVM

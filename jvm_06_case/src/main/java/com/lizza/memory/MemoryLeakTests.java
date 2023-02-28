@@ -7,6 +7,9 @@ import org.junit.Test;
 import java.util.Map;
 import java.util.UUID;
 
+/**
+ * 模拟内存泄漏
+ */
 public class MemoryLeakTests {
 
     /**
