@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9c58987-17de-4933-a30a-bc8737701dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jvm_06_case/src/main/java/com/lizza/memory/RuntimeConstantTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm_06_case/src/main/java/com/lizza/util/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GC_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_04_gc/src/main/java/com/lizza/GC_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm_06_case/src/main/java/com/lizza/memory/MemoryLeakTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm_06_case/src/main/java/com/lizza/memory/MemoryLeakTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +194,9 @@
       <workItem from="1676618796118" duration="488000" />
       <workItem from="1676629559237" duration="1000" />
       <workItem from="1676631082827" duration="1051000" />
-      <workItem from="1677419997554" duration="5429000" />
+      <workItem from="1677419997554" duration="6024000" />
+      <workItem from="1677570849520" duration="599000" />
+      <workItem from="1677772839152" duration="1284000" />
     </task>
     <servers />
   </component>
